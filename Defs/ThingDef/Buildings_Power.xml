@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>PiezoelectricGenerator</defName>
+        <label>piezoelectric generator</label>
+        <description>A hidden component that connects piezoelectric flooring to the power grid. Automatically placed when piezoelectric flooring is built.</description>
+        <thingClass>PiezoelectricFlooring.Building_PiezoFloor</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Things/Building/PiezoGenerator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0</fillPercent>
+        <canOverlapZones>true</canOverlapZones>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <comps>
+            <li Class="PiezoelectricFlooring.CompPowerPlantPiezo">
+                <basePowerConsumption>0</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+        </comps>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+        </building>
+        <drawerType>MapMeshOnly</drawerType>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <researchPrerequisites>
+            <li>PiezoelectricTechnology</li>
+        </researchPrerequisites>
+    </ThingDef>
+</Defs>

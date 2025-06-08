@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TerrainDef>
+        <defName>PiezoelectricFloor</defName>
+        <label>piezoelectric floor</label>
+        <description>A sophisticated flooring material embedded with piezoelectric crystals that generate small amounts of electricity when stepped on. More foot traffic means more power generation.</description>
+        <texturePath>Terrain/PiezoFloor</texturePath>
+        <edgeType>Hard</edgeType>
+        <renderPrecedence>240</renderPrecedence>
+        <pathCost>0</pathCost>
+        <statBases>
+            <Beauty>2</Beauty>
+            <Cleanliness>0.2</Cleanliness>
+        </statBases>
+        <costList>
+            <Steel>8</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Silver>15</Silver>
+        </costList>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <designationCategory>Floors</designationCategory>
+        <uiOrder>2030</uiOrder>
+        <researchPrerequisites>
+            <li>PiezoelectricTechnology</li>
+        </researchPrerequisites>
+        <constructEffect>ConstructMetal</constructEffect>
+        <repairEffect>Repair</repairEffect>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    </TerrainDef>
+</Defs>

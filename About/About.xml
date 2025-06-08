@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Piezoelectric Flooring</name>
+    <author>YourName</author>
+    <packageId>yourname.piezoelectricflooring</packageId>
+    <description>Adds piezoelectric flooring that generates power when colonists walk on it.</description>
+    <supportedVersions>
+        <li>1.4</li>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+        </li>
+    </modDependencies>
+</ModMetaData>
