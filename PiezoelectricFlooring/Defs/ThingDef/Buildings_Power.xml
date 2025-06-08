@@ -7,7 +7,7 @@
         <thingClass>PiezoelectricFlooring.Building_PiezoGenerator</thingClass>
         <category>Building</category>
         <graphicData>
-            <texPath>Things/Building/PiezoGenerator</texPath>
+            <texPath>Things/Special/Empty</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1,1)</drawSize>
             <damageData>
