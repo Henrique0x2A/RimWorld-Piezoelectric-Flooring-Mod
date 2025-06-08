@@ -1,5 +1,6 @@
 using RimWorld;
 using Verse;
+using Verse.AI;
 using HarmonyLib;
 
 namespace PiezoelectricFlooring
@@ -9,28 +10,27 @@ namespace PiezoelectricFlooring
     {
         [HarmonyPatch(typeof(Pawn_PathFollower), "PatherArrived")]
         [HarmonyPostfix]
-        public static void DetectMovement(Pawn_PathFollower __instance)
+        public static void DetectMovement(Pawn ___pawn)
         {
-            Pawn pawn = __instance.pawn;
-            if (pawn?.Map == null) return;
+            if (___pawn?.Map == null) return;
             
-            IntVec3 position = pawn.Position;
+            IntVec3 position = ___pawn.Position;
             
             // Check for integrated piezoelectric terrain
-            TerrainDef terrain = position.GetTerrain(pawn.Map);
+            TerrainDef terrain = position.GetTerrain(___pawn.Map);
             if (terrain?.defName == "PiezoelectricFloor")
             {
                 // Create temporary power generation for terrain-based system
-                HandleTerrainPiezoelectric(pawn, position);
+                HandleTerrainPiezoelectric(___pawn, position);
             }
             
             // Check for overlay generators
-            var things = position.GetThingList(pawn.Map);
+            var things = position.GetThingList(___pawn.Map);
             foreach (var thing in things)
             {
                 if (thing is Building_PiezoGenerator piezoGenerator)
                 {
-                    piezoGenerator.OnPawnStep(pawn);
+                    piezoGenerator.OnPawnStep(___pawn);
                     break;
                 }
             }

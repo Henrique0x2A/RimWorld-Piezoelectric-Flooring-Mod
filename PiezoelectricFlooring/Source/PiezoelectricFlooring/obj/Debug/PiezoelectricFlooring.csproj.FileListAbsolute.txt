@@ -1,0 +1,8 @@
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\PiezoelectricFlooring.csproj.AssemblyReference.cache
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\PiezoelectricFlooring.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\PiezoelectricFlooring.AssemblyInfoInputs.cache
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\PiezoelectricFlooring.AssemblyInfo.cs
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\PiezoelectricFlooring.csproj.CoreCompileInputs.cache
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Assemblies\PiezoelectricFlooring.dll
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\Piezoele.2415CB68.Up2Date
+C:\Users\hnval\source\repos\Henrique0x2A\RimWorld-Piezoelectric-Flooring-Mod\PiezoelectricFlooring\Source\PiezoelectricFlooring\obj\Debug\PiezoelectricFlooring.dll
