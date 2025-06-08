@@ -31,7 +31,7 @@
         </costList>
         <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
         <comps>
-            <li Class="PiezoelectricFlooring.CompPowerPlantPiezo">
+            <li Class="PiezoelectricFlooring.CompProperties_Power_Piezo">
                 <basePowerConsumption>0</basePowerConsumption>
                 <transmitsPower>true</transmitsPower>
                 <powerMultiplier>1.3</powerMultiplier>

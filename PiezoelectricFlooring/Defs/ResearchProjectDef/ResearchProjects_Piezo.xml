@@ -8,7 +8,7 @@
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>Electricity</li>
-            <li>Microelectronics</li>
+            <li>MicroelectronicsBasics</li>
         </prerequisites>
         <researchViewX>8</researchViewX>
         <researchViewY>4</researchViewY>

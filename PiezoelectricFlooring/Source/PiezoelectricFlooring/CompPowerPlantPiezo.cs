@@ -4,6 +4,16 @@ using UnityEngine;
 
 namespace PiezoelectricFlooring
 {
+    public class CompProperties_Power_Piezo : CompProperties_Power
+    {
+        public float powerMultiplier = 1.0f;
+
+        public CompProperties_Power_Piezo()
+        {
+            this.compClass = typeof(CompPowerPlantPiezo);
+        }
+    }
+
     public class CompPowerPlantPiezo : CompPowerPlant
     {
         private int ticksSinceLastStep = 0;
@@ -13,7 +23,7 @@ namespace PiezoelectricFlooring
         private const float powerDecayRate = 0.94f;
         private const int powerBoostTicks = 60;
         
-        public float powerMultiplier = 1.0f; // Set by building def
+        public new CompProperties_Power_Piezo Props => (CompProperties_Power_Piezo)props;
         
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
@@ -23,7 +33,7 @@ namespace PiezoelectricFlooring
             if (parent.def.defName == "PiezoelectricGenerator")
             {
                 basePowerOutput = 50f; // Premium generators are more powerful
-                maxPowerOutput = basePowerOutput * powerMultiplier;
+                maxPowerOutput = basePowerOutput * Props.powerMultiplier;
             }
         }
         
