@@ -3,11 +3,11 @@
     "configurations": [
         {
             "name": "Build Mod",
-            "type": "coreclr",
+            "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/PiezoelectricFlooring/build.sh",
-            "console": "integratedTerminal",
-            "stopAtEntry": false
+            "preLaunchTask": "Build",
+            "program": "${workspaceFolder}/.vscode/noop.js",
+            "console": "integratedTerminal"
         }
     ]
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>PiezoelectricGenerator</defName>
+        <label>piezoelectric generator</label>
+        <description>An advanced piezoelectric power generator that can be installed on any flooring. Preserves the underlying floor's appearance while providing superior power generation. Premium materials required.</description>
+        <thingClass>PiezoelectricFlooring.Building_PiezoGenerator</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Things/Building/PiezoGenerator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+            <damageData>
+                <enabled>false</enabled>
+            </damageData>
+        </graphicData>
+        <size>(1,1)</size>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <castEdgeShadows>false</castEdgeShadows>
+        <fillPercent>0</fillPercent>
+        <canOverlapZones>true</canOverlapZones>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <uiOrder>2010</uiOrder>
+        <costList>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Gold>8</Gold>
+            <Plasteel>4</Plasteel>
+        </costList>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <comps>
+            <li Class="PiezoelectricFlooring.CompPowerPlantPiezo">
+                <basePowerConsumption>0</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+                <powerMultiplier>1.3</powerMultiplier>
+            </li>
+        </comps>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+        </building>
+        <drawerType>MapMeshOnly</drawerType>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <researchPrerequisites>
+            <li>AdvancedPiezoelectrics</li>
+        </researchPrerequisites>
+        <constructEffect>ConstructMetal</constructEffect>
+        <repairEffect>Repair</repairEffect>
+    </ThingDef>
+</Defs> 

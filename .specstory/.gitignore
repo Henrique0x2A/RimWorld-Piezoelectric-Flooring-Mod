@@ -1,0 +1,23 @@
+# SpecStory explanation file
+/.what-is-this.md
+
+# Build outputs
+**/bin/
+**/obj/
+**/*.dll
+**/*.pdb
+
+# Temporary files
+**/*.tmp
+**/*.temp
+
+# IDE files
+.vs/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+# Don't index SpecStory auto-save files, but allow explicit context inclusion via @ references
+.specstory/**

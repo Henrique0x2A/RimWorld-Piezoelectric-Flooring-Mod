@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Piezoelectric Flooring</name>
+    <author>YourName</author>
+    <packageId>yourname.piezoelectricflooring</packageId>
+    <description>Two ways to harness piezoelectric power:
+1. Integrated piezoelectric tiles - affordable, one-step installation
+2. Piezoelectric generators - premium devices that work on any flooring
+
+Choose efficiency or aesthetics!</description>
+    <supportedVersions>
+        <li>1.4</li>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+        </li>
+    </modDependencies>
+</ModMetaData> 

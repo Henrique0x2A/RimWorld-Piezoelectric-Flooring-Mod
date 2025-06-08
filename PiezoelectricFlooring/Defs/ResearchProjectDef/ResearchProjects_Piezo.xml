@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ResearchProjectDef>
+        <defName>PiezoelectricTechnology</defName>
+        <label>piezoelectric technology</label>
+        <description>Harness mechanical stress through piezoelectric materials. Unlocks basic integrated piezoelectric flooring.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Electricity</li>
+            <li>Microelectronics</li>
+        </prerequisites>
+        <researchViewX>8</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>AdvancedPiezoelectrics</defName>
+        <label>advanced piezoelectrics</label>
+        <description>Develop sophisticated piezoelectric generators that can be installed on any surface while preserving aesthetics. More expensive but more flexible.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>PiezoelectricTechnology</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <researchViewX>9</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+</Defs> 
