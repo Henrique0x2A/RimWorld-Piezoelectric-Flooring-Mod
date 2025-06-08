@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.xml": "xml"
+    },
+    "xml.catalogs": [
+        {
+            "path": "rimworld-defs.xsd",
+            "includes": ["**/*.xml"]
+        }
+    ],
+    "dotnet.defaultSolution": "PiezoelectricFlooring/Source/PiezoelectricFlooring/PiezoelectricFlooring.csproj"
+}

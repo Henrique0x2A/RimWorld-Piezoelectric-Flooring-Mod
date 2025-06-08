@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build Mod",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/PiezoelectricFlooring/build.sh",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}

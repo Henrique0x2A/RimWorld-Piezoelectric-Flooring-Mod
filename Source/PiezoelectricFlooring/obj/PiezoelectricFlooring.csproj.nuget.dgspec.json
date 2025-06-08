@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/PiezoelectricFlooring.csproj": {}
+  },
+  "projects": {
+    "/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/PiezoelectricFlooring.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/PiezoelectricFlooring.csproj",
+        "projectName": "PiezoelectricFlooring",
+        "projectPath": "/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/PiezoelectricFlooring.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

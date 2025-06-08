@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = PiezoelectricFlooring
+build_property.ProjectDir = /workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

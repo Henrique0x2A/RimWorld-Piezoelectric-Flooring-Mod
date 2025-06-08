@@ -3,19 +3,22 @@
         <TargetFramework>net472</TargetFramework>
         <LangVersion>latest</LangVersion>
         <OutputPath>../../Assemblies/</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <DebugType>None</DebugType>
+        <DebugSymbols>false</DebugSymbols>
     </PropertyGroup>
     
     <ItemGroup>
         <Reference Include="Assembly-CSharp">
-            <HintPath>path/to/rimworld/RimWorldWin64_Data/Managed/Assembly-CSharp.dll</HintPath>
+            <HintPath>rimworld-refs/0Harmony.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
-            <HintPath>path/to/rimworld/RimWorldWin64_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+            <HintPath>rimworld-refs/UnityEngine.CoreModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="0Harmony">
-            <HintPath>path/to/rimworld/Mods/Harmony/Current/Assemblies/0Harmony.dll</HintPath>
+            <HintPath>rimworld-refs/0Harmony.dll</HintPath>
             <Private>False</Private>
         </Reference>
     </ItemGroup>

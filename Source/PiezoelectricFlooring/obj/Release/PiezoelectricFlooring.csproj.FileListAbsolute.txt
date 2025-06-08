@@ -1,0 +1,4 @@
+/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/obj/Release/PiezoelectricFlooring.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/obj/Release/PiezoelectricFlooring.AssemblyInfoInputs.cache
+/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/obj/Release/PiezoelectricFlooring.AssemblyInfo.cs
+/workspaces/RimWorld-Piezoelectric-Flooring-Mod/Source/PiezoelectricFlooring/obj/Release/PiezoelectricFlooring.csproj.CoreCompileInputs.cache
