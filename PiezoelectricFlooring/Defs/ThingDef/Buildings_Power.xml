@@ -2,26 +2,26 @@
 <Defs>
     <ThingDef ParentName="BuildingBase">
         <defName>PiezoelectricGenerator</defName>
-        <label>piezoelectric generator</label>
-        <description>An advanced piezoelectric power generator that can be installed on any flooring. Preserves the underlying floor's appearance while providing superior power generation. Premium materials required.</description>
+        <label>piezoelectric conduit</label>
+        <description>An advanced underfloor piezoelectric power generator that can be installed beneath any flooring. Invisible during normal gameplay, it becomes visible in the power grid view.</description>
         <thingClass>PiezoelectricFlooring.Building_PiezoGenerator</thingClass>
         <category>Building</category>
         <graphicData>
-            <texPath>UI/Buttons/Dev/Empty</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1,1)</drawSize>
+            <texPath>Things/Building/PiezoGenerator_Atlas</texPath>
+            <graphicClass>Verse.Graphic_Conduit</graphicClass>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
         </graphicData>
         <size>(1,1)</size>
-        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <altitudeLayer>Conduits</altitudeLayer>
         <passability>Standable</passability>
         <castEdgeShadows>false</castEdgeShadows>
         <fillPercent>0</fillPercent>
         <canOverlapZones>true</canOverlapZones>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <designationCategory>Power</designationCategory>
+        <placingDraggableDimensions>1</placingDraggableDimensions>
         <uiOrder>2010</uiOrder>
         <costList>
             <ComponentIndustrial>3</ComponentIndustrial>
@@ -42,7 +42,6 @@
             <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
         </building>
         <drawerType>MapMeshOnly</drawerType>
-        <drawGUIOverlay>true</drawGUIOverlay>
         <researchPrerequisites>
             <li>AdvancedPiezoelectrics</li>
         </researchPrerequisites>
