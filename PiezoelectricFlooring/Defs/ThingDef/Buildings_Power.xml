@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="BuildingBase">
         <defName>PiezoelectricGenerator</defName>
-        <label>piezoelectric conduit</label>
+        <label>piezoelectric generator</label>
         <description>An advanced underfloor piezoelectric power generator that can be installed beneath any flooring. Invisible during normal gameplay, it becomes visible in the power grid view.</description>
         <thingClass>PiezoelectricFlooring.Building_PiezoGenerator</thingClass>
         <category>Building</category>
@@ -48,4 +48,4 @@
         <constructEffect>ConstructMetal</constructEffect>
         <repairEffect>Repair</repairEffect>
     </ThingDef>
-</Defs> 
+</Defs>
