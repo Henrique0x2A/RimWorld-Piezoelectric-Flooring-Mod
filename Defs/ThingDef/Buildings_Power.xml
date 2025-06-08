@@ -3,8 +3,8 @@
     <ThingDef ParentName="BuildingBase">
         <defName>PiezoelectricGenerator</defName>
         <label>piezoelectric generator</label>
-        <description>A hidden component that connects piezoelectric flooring to the power grid. Automatically placed when piezoelectric flooring is built.</description>
-        <thingClass>PiezoelectricFlooring.Building_PiezoFloor</thingClass>
+        <description>An advanced piezoelectric power generator that can be installed on any flooring. Preserves the underlying floor's appearance while providing superior power generation. Premium materials required.</description>
+        <thingClass>PiezoelectricFlooring.Building_PiezoGenerator</thingClass>
         <category>Building</category>
         <graphicData>
             <texPath>Things/Building/PiezoGenerator</texPath>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PiezoelectricFlooring")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+050a7ef77ac0cb292af3b5e55b7bfbea079ab6d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+8bf4831299b3360e92df873337ebf25b27e1d39e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PiezoelectricFlooring")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PiezoelectricFlooring")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
