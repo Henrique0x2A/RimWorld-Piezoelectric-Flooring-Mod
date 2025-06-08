@@ -3518,3 +3518,141 @@ _**Assistant**_
 
 ---
 
+You are correct. That is a very likely cause of the issue. My apologies for the trouble it has caused.
+
+I will now directly overwrite the `Buildings_Power.xml` file in your repository with the final, clean version. This will eliminate any possibility of invisible characters or formatting errors from copy-pasting.
+
+---
+
+
+
+---
+
+I have made the change directly to the file in your repository, overwriting it with the clean and correct version. This should finally resolve the XML parsing error.
+
+Please follow these steps one last time:
+
+1.  **Close RimWorld.**
+2.  Go to your RimWorld `Mods` directory and **delete** the `PiezoelectricFlooring` folder.
+3.  Copy the `PiezoelectricFlooring` folder from your repository into your `Mods` directory.
+
+The mod should now load and function correctly.
+
+---
+
+_**User**_
+
+the issue persists:
+RimWorld 1.5.4409 rev1120
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimWorld.VersionControl:LogVersionNumber ()
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+Dubs Skylight 1.5.2639
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Dubs_Skylight.DubsSkylightsMod:.ctor (Verse.ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke (object,object[])
+System.Reflection.MonoCMethod:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MonoCMethod:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__6_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not find a type named Verse.Graphic_Conduit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.ParseHelper:ParseType (string)
+Verse.ParseHelper:FromString<System.Type> (string)
+Verse.DirectXmlToObject:ObjectFromXml<System.Type> (System.Xml.XmlNode,bool)
+Verse.DirectXmlToObject:ObjectFromXmlReflection<System.Type> (System.Xml.XmlNode,bool)
+Verse.DirectXmlToObject:ObjectFromXml<Verse.GraphicData> (System.Xml.XmlNode,bool)
+Verse.DirectXmlToObject:ObjectFromXmlReflection<Verse.GraphicData> (System.Xml.XmlNode,bool)
+Verse.DirectXmlToObject:ObjectFromXml<Verse.ThingDef> (System.Xml.XmlNode,bool)
+Verse.DirectXmlToObject:ObjectFromXmlReflection<Verse.ThingDef> (System.Xml.XmlNode,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DirectXmlLoader.DefFromNode_Patch2 (System.Xml.XmlNode,Verse.LoadableXmlAsset)
+Verse.LoadedModManager:ParseAndProcessXML (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>,bool)
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__6_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve cross-reference: No Verse.SoundDef named MeleeHit_Wood_Sharp found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.DirectXmlCrossRefLoader/WantedRefForObject:TryResolve (Verse.FailMode)
+Verse.DirectXmlCrossRefLoader/<>c__DisplayClass16_1:<ResolveAllWantedCrossReferences>b__0 (Verse.DirectXmlCrossRefLoader/WantedRef)
+Verse.GenThreading/<>c__DisplayClass7_1`1<Verse.DirectXmlCrossRefLoader/WantedRef>:<ParallelForEach>b__0 (object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Could not resolve cross-reference: No Verse.SoundDef named MeleeHit_Wood_Blunt found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.DirectXmlCrossRefLoader/WantedRefForObject:TryResolve (Verse.FailMode)
+Verse.DirectXmlCrossRefLoader/<>c__DisplayClass16_1:<ResolveAllWantedCrossReferences>b__0 (Verse.DirectXmlCrossRefLoader/WantedRef)
+Verse.GenThreading/<>c__DisplayClass7_1`1<Verse.DirectXmlCrossRefLoader/WantedRef>:<ParallelForEach>b__0 (object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref DA62BE81]
+ at Verse.ThingDef.<PostLoad>b__379_0 () [0x00043] in <630e2863bc9a4a3493f2eff01e3a9556>:0 
+ at Verse.LongEventHandler.ExecuteToExecuteWhenFinished () [0x0007c] in <630e2863bc9a4a3493f2eff01e3a9556>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref DA62BE81] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+
+---
+
+_**Assistant**_
+
+
+
+---
+

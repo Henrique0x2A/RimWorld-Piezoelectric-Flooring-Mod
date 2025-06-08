@@ -8,7 +8,7 @@
         <category>Building</category>
         <graphicData>
             <texPath>Things/Building/PiezoGenerator_Atlas</texPath>
-            <graphicClass>Verse.Graphic_Conduit</graphicClass>
+            <graphicClass>Graphic_Flicker</graphicClass>
             <damageData>
                 <enabled>false</enabled>
             </damageData>
